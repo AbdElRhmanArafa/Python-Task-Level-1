@@ -97,13 +97,12 @@ def many_time_word_in_sentence(sentence="", word=""):
             count += 1
     return count
 
+
 """
 Create a function that takes x,y and prints all the number that 
 can be divide by y from x to 100
 """
 
-def divide_by_Y_from_X(x,y):
-    return [i for i in range(x,101) if i % y == 0]
 
-    
-
+def divide_by_Y_from_X(x, y):
+    return [i for i in range(x, 101) if i % y == 0]
